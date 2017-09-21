@@ -8,3 +8,6 @@ Zufallszahlen
 
 Code-Muster in GIMP
 -------------------
+
+Code-Muster in Photoshop
+-------------------
