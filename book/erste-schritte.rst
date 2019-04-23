@@ -70,7 +70,7 @@ Bei beidem hilft das ``tttool``, und in beiden ist der Ausgangspunkt die sogenan
 Der erste Ton
 ~~~~~~~~~~~~~
 
-Du beginnst also mit einer einfachen YAML-Datei. Öffne den Texteditor deiner Wahl, schreibe folgendes und speichere es as ``tic-tac-toe.yaml``:
+Du beginnst also mit einer einfachen YAML-Datei. Öffne den Texteditor deiner Wahl, schreibe folgendes und speichere es als ``tic-tac-toe.yaml``:
 
 .. code:: yaml
 
