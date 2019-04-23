@@ -70,7 +70,7 @@ Bei beidem hilft das ``tttool``, und in beiden ist der Ausgangspunkt die sogenan
 Der erste Ton
 ~~~~~~~~~~~~~
 
-Du beginnst also mit einer einfachen YAML-Datei. Öffne den Texteditor deiner Wahl, schreibe folgendes und speichere es as ``tic-tac-toe.yaml``:
+Du beginnst also mit einer einfachen YAML-Datei. Öffne den Texteditor deiner Wahl, schreibe folgendes und speichere es als ``tic-tac-toe.yaml``:
 
 .. code:: yaml
 
@@ -87,9 +87,9 @@ sind.
 
 Die einzig wichtigen Felder sind ``product-id`` und ``scripts``. Die ``product-id``
 ist eine Nummer, die dein Projekt indentifiziert, und mit der am Ende der Stift
-die passende GME-Datei zu ausgewählten Buch findet. Das ``comment``-Feld hat
+die passende GME-Datei zum ausgewählten Buch findet. Das ``comment``-Feld hat
 keine weitere Bedeutung. Wirklich spannend ist das ``scripts``-Feld: Hier wird
-festgelegt, dass es ein Feld namens “``feldOl``” geben wird, und wenn der
+festgelegt, dass es ein Feld namens “``feldOl``” geben wird. Sobald der
 Benutzer mit dem Stift drauf geht, soll die Audiodatei namens
 ``oben_links`` abgespielt werden.
 
@@ -98,8 +98,8 @@ und als ``oben_links.ogg`` abspeichern, und am Ende wirst du das sicher machen
 wollen. Aber gerade während du dein Tiptoi-Produkt noch entwickelst, oder für
 schnelle Experimente, ist das sehr hinderlich.
 
-Daher kann das ``tttool`` auch selbst die Ansagen erstellen, mittels
-Text-To-Speech [#]_.  Füge dazu folgende Zeilen der Datei hinzu:
+Daher kann das ``tttool`` auch mittels Text-To-Speech [#]_. selbst die Ansagen erstellen.
+Füge dazu folgende Zeilen der Datei hinzu:
 
 
 .. code:: yaml
@@ -127,7 +127,7 @@ erstellt dir das ``tttool`` die Datei ``tic-tac-tiptoi.pdf``, die alle
 Punktmuster für dein Werk in einer nüchternen, aber praktischen Tabelle
 enthält. Du siehst dort neben dem Feld für ``feldOL`` auch eines mit der Beschriftung ``START``. Dies ist das Anschaltzeichen für dein Produkt.
 
-Wenn du diese Datei nun ausdruckst, mit dem Stift auf das Anschaltzeichen gehst, und danach auf das andere Feld, solltest du eine Roboterstimme hören, die „Du hast oben links hingetippt.“ sagt.
+Wenn du diese Datei nun ausdruckst, die GME-Datei auf deinem Stift hast und mit dem Stift auf das Anschaltzeichen gehst, anschließend auf das andere Feld tippst, solltest du eine Roboterstimme hören die „Du hast oben links hingetippt.“ sagt.
 
 
 .. note:: Das Drucken ist die hakeligste Sache an der ganzen Bastelei. Mit
